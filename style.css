@@ -1,15 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500&display=swap');
 
-body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
+
+}
+
+body{
+    margin: 0;
 }
 
 .nav-bar{
     display: flex;
+    position: fixed;
     flex-direction: column;
+    max-width: 60px;
+    background-color: red;
+    padding: 20px 20px;
+    height: 100%;
+}
+
+.logo{
+    margin-top: 10px;
 }
 
 .nav-logo{
     display: flex;
     flex-direction: column;
+    margin-top: 60px;
+}
+
+.exit{
+    margin-top: 100px;
+}
+
+.m-10{
+    margin-top: 30px;
+}
+
+main{
+    position: relative;
+    margin-left: 100px;
+}
+
+.header{
+    width: fit-content;
+    padding: 30px 0px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.profile .profile-pic{
+    /* display: flex;
+    align-items: center; */
+    width: 48px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.hello{
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-left: 20px;
+}
+
+.name{
+    /* line-height: 25px; */
+    font-weight: 400;
+    font-size: 1.5rem;
 }
