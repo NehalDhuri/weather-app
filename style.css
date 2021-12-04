@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500&display=swap');
+
+body{
+    font-family: 'Outfit', sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-logo{
+    display: flex;
+    flex-direction: column;
+}
