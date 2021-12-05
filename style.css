@@ -46,8 +46,11 @@ main{
 }
 
 .header{
+    display: flex;
+    justify-content: space-between;
     width: fit-content;
     padding: 30px 0px;
+    width: 70%;
 }
 
 .profile{
@@ -75,4 +78,38 @@ main{
     /* line-height: 25px; */
     font-weight: 400;
     font-size: 1.5rem;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+}
+
+.search-container #search-bar{
+    width: 250px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(236, 232, 232);
+}
+
+.search-container .search-icon{
+    position: relative;
+    float: right;
+    /* top: -62px; */
+    right: 48px;
+    width: 50px;
+    height: 50px;
+
+}
+
+
+.notification{
+    color: black;
+}
+
+.bell{
+    width: 55px;
+    height: 55px;
+    color: black;
 }
