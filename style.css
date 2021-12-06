@@ -17,8 +17,9 @@ body{
     position: fixed;
     flex-direction: column;
     max-width: 60px;
-    background-color: red;
+    /* background-color: red; */
     padding: 20px 20px;
+    margin-left: 10px;
     height: 100%;
 }
 
@@ -33,11 +34,11 @@ body{
 }
 
 .exit{
-    margin-top: 100px;
+    margin-top: 260px;
 }
 
 .m-10{
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 main{
