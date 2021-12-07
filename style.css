@@ -138,7 +138,7 @@ main{
     border: 1px solid black;
     border-radius: 15px;
     width: 50%;
-    height: 40vh;
+    height: fit-content;
     padding: 20px 35px;
 }
 
@@ -150,16 +150,16 @@ main{
     /* margin-left: 15px; */
 }
 
-.heading .sun{
+/* .heading .sun{
     border-radius: 50%;
     width: 25px;
     height: 25px;
-    /* background-color: aqua; */
-}
+    background-color: aqua;
+} */
 
-.heading .sun img{
-    width: 18px;
-    height: 18px;
+.heading img{
+    width: 20px;
+    height: 20px;
     position: relative;
     left: 2px;
     top: 2px;
@@ -187,7 +187,7 @@ main{
     justify-content: space-between;
     width: 130px;
     flex-wrap: wrap;
-    margin: 15px 0 15px 0;
+    margin: 25px 0 15px 0;
 }
 
 .value .second-temp{
@@ -211,18 +211,19 @@ main{
     /* align-content: center; */
     /* align-items: center; */
     justify-content: space-between;
+    margin-top: 40px;
     /* margin: 20px 0px 0px 15px; */
-    padding: 20px 0px;
+    /* padding: 20px 0px; */
    
 }
 
 .box-s{
-    width: 100px;
+    width: fit-content;
     /* margin: 10px; */
     background-color: black;
     color: white;
     border-radius: 18px;
-    padding: 10px 12px;
+    padding: 20px 30px;
 }
 
 .details .title{
@@ -253,6 +254,7 @@ main{
     background-color: black;
     color: white;
     padding: 20px;
+    margin-top: 45px;
 }
 
 .indicator .level{
