@@ -55,6 +55,7 @@ main{
 
 .section-1{
     width: 70%;
+    padding: 0 30px 42px 0;
 }
 
 .header{
@@ -276,8 +277,9 @@ main{
 }
 
 .section-2{
-    padding: 30px 50px;
+    padding: 30px 40px 65px 30px;
     width: 30%;
+    background-color: whitesmoke;
 }
 
 .side-heading{
@@ -407,6 +409,9 @@ hr{
     border: none;
     color: white;
     border-radius: 15px;
+    position: relative;
+    left: 210px;
+    margin-top: 30px;
 }
 
 .next-days img{
