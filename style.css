@@ -37,14 +37,20 @@ body{
     margin-top: 260px;
 }
 
-.m-10{
+.m-40{
     margin-top: 40px;
 }
 
 main{
     position: relative;
-    margin-left: 100px;
-    width: 60%;
+    margin-left: 90px;
+    /* width: 60%; */
+    display: flex;
+
+}
+
+.section-1{
+    width: 70%;
 }
 
 .header{
@@ -128,7 +134,7 @@ main{
     border: 1px solid black;
     border-radius: 15px;
     width: 50%;
-    height: 40vh;
+    height: 36vh;
     padding: 20px;
 }
 
@@ -144,7 +150,7 @@ main{
     border-radius: 50%;
     width: 25px;
     height: 25px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .heading .sun img{
@@ -190,7 +196,7 @@ main{
 }
 
 .value .title{
-    margin-top: 5px;
+    margin-top: 10px;
     font-size: 13px;
 }
 
@@ -224,10 +230,120 @@ main{
     text-align: center;
 }
 
-
-
-
 .air-q-card{
     display: inline-block;
     /* margin-top: 10px; */
+}
+
+.air-q-card .value .second-temp{
+    padding: 5px 10px;
+    margin-top: 0;
+    margin-right: 20px;
+}
+
+.indicator{
+    width: 100%;
+    border-radius: 10px;
+    background-color: black;
+
+}
+
+.section-2{
+    padding: 30px 50px;
+    width: 30%;
+}
+
+.side-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-2 .side-heading .day{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.section-2 .side-heading .location{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.section-2 .side-heading .location img{
+    width: 10px;
+    align-self:center;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.section-2 .side-heading .temp{
+    font-size: 35px;
+    font-weight: 500;   
+    letter-spacing: 1.8px;
+}
+
+hr{
+    margin-top: 25px;
+    /* background-color: rgb(75, 73, 73); */
+    border: 0.00001px solid rgb(182, 178, 178);
+    opacity: 0.8;
+}
+
+.prediction{
+    margin: 20px 0;
+}
+
+.prediction h1{
+    font-weight: 500;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 18px;
+}
+
+.m-10{
+    margin-top: 10px;
+}
+
+.m-20{
+    margin-top: 20px;
+}
+
+.m-30{
+    margin-top: 30px;
+}
+
+.day-info .date{
+    font-weight: 300;
+}
+
+.day-info .condition{
+    margin-top: 10px;
+    font-size: 19px;
+    letter-spacing: 1.2px;
+}
+
+.next-days{
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(218, 106, 65);
+    border: none;
+    color: white;
+    border-radius: 12px;
+}
+
+.next-days img{
+    width: 18px;
+    margin-right: 10px;
 }
