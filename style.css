@@ -139,7 +139,7 @@ main{
     border-radius: 15px;
     width: 50%;
     height: 40vh;
-    padding: 20px;
+    padding: 20px 35px;
 }
 
 .heading{
@@ -147,7 +147,7 @@ main{
     align-items: center;
     justify-content: space-between;
     width: 150px;
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 
 .heading .sun{
@@ -187,7 +187,7 @@ main{
     justify-content: space-between;
     width: 130px;
     flex-wrap: wrap;
-    margin: 15px 0 15px 15px;
+    margin: 15px 0 15px 0;
 }
 
 .value .second-temp{
@@ -201,7 +201,7 @@ main{
 
 .value .title{
     margin-top: 10px;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .details{
@@ -212,7 +212,7 @@ main{
     /* align-items: center; */
     justify-content: space-between;
     /* margin: 20px 0px 0px 15px; */
-    padding: 20px 15px;
+    padding: 20px 0px;
    
 }
 
@@ -249,9 +249,28 @@ main{
 
 .indicator{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: black;
+    color: white;
+    padding: 20px;
+}
 
+.indicator .level{
+    display: flex;
+    justify-content: space-between;
+}
+
+.indicator .level .standard{
+    margin-left: 18px;
+}
+
+.indicator .progress{
+    height: 7px;
+    margin-top: 15px;
+}
+
+.orng{
+    background-color: rgb(255, 83, 30);
 }
 
 .section-2{
