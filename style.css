@@ -33,6 +33,10 @@ body{
     margin-top: 60px;
 }
 
+.nav-logo img{
+    width: 20px;
+}
+
 .exit{
     margin-top: 260px;
 }
@@ -134,7 +138,7 @@ main{
     border: 1px solid black;
     border-radius: 15px;
     width: 50%;
-    height: 36vh;
+    height: 40vh;
     padding: 20px;
 }
 
@@ -293,6 +297,37 @@ hr{
     opacity: 0.8;
 }
 
+.detail{
+    margin-right: 20px;
+}
+
+.detail .UVI{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.detail .UVI .UVI-value{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.detail .UVI .level{
+    font-size: 10px;
+    font-weight: 400;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 9px;
+    margin-left: 10px;
+}
+
+.detail .note{
+    margin-top: 12px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
 .prediction{
     margin: 20px 0;
 }
@@ -305,7 +340,7 @@ hr{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 20px 30px;
     background-color: black;
     color: white;
     border-radius: 18px;
@@ -323,6 +358,10 @@ hr{
     margin-top: 30px;
 }
 
+.day-info{
+    margin-right: 35px;
+}
+
 .day-info .date{
     font-weight: 300;
 }
@@ -334,16 +373,24 @@ hr{
 }
 
 .next-days{
-    padding: 12px 20px;
+    padding: 18px 20px;
     display: flex;
     align-items: center;
-    background-color: rgb(218, 106, 65);
+    background-color: rgb(255, 83, 30);
     border: none;
     color: white;
-    border-radius: 12px;
+    border-radius: 15px;
 }
 
 .next-days img{
     width: 18px;
     margin-right: 10px;
+}
+
+img{
+    width: 45px;
+}
+
+.cloudy{
+    width: 55px;
 }
