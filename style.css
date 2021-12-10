@@ -67,7 +67,7 @@ main{
 }
 
 .section-1{
-    width: 70%;
+    width: 75%;
     padding: 0 30px 40px 0;
 }
 
@@ -321,7 +321,7 @@ main{
 
 .section-2{
     padding: 30px 40px 61px 30px;
-    width: 30%;
+    width: 25%;
     background-color: rgb(250, 245, 245);
 }
 
@@ -366,8 +366,13 @@ hr{
     opacity: 0.5;
 }
 
-.detail{
+/* .detail{
     margin-right: 40px;
+} */
+
+.UVI-card{
+    background-color: #192740;
+    color: white;
 }
 
 .detail .UVI{
@@ -377,7 +382,7 @@ hr{
 }
 
 .detail .UVI .UVI-value{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     margin-bottom: 0;
 }
@@ -385,7 +390,7 @@ hr{
 .detail .UVI .level{
     font-size: 10px;
     font-weight: 400;
-    background-color: white;
+    background-color: #c4fa31;
     color: black;
     border-radius: 10px;
     padding: 5px 9px;
@@ -393,7 +398,7 @@ hr{
 }
 
 .detail .note{
-    margin-top: 12px;
+    margin-top: 10px;
     font-weight: 300;
     font-size: 14px;
 }
@@ -412,7 +417,7 @@ hr{
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    padding: 20px 20px;
+    padding: 15px 20px;
     background-color: white;
     color: black;
     border-radius: 18px;
@@ -436,17 +441,22 @@ hr{
 
 .day-info .date{
     font-weight: 300;
+    font-size: 14px;
 }
 
 .day-info .condition{
-    margin-top: 10px;
-    font-size: 19px;
-    letter-spacing: 1.2px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.prediction .card .temp{
+    align-self:flex-end;
 }
 
 .next-days{
-    /* font-size: 16px; */
-    padding: 18px 20px;
+    font-size: 14px;
+    padding: 15px 20px;
     display: flex;
     align-items: center;
     background-color: var(--orange);
@@ -454,7 +464,7 @@ hr{
     color: white;
     border-radius: 15px;
     position: relative;
-    left: 207px;
+    left: 130px;
     margin-top: 40px;
 }
 
