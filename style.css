@@ -9,7 +9,7 @@
 }
 
 :root{
-    --orange:#FF531E;
+    --orange:#ff6c40;
 }
 
 body{
@@ -20,11 +20,11 @@ body{
     display: flex;
     position: fixed;
     flex-direction: column;
-    max-width: 60px;
+    /* max-width: 60px; */
     /* background-color: red; */
     padding: 20px 20px;
-    margin-left: 10px;
-    height: 100%;
+    /* margin-left: 10px; */
+    /* height: 100%; */
 }
 
 .logo{
@@ -34,15 +34,24 @@ body{
 .nav-logo{
     display: flex;
     flex-direction: column;
-    margin-top: 132px;
+    margin-top: 112px;
 }
 
 .nav-logo img{
-    width: 20px;
+    /* width: 20px; */
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.nav-logo img:hover{
+    background-color: orange;
+    /* filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(134deg) brightness(104%) contrast(101%);} */
+    box-shadow: 0 0 10px #ff9028;
+
 }
 
 .exit{
-    margin-top: 250px;
+    margin-top: 120px;
 }
 
 .m-40{
@@ -138,19 +147,25 @@ main{
 }
 
 .weather-card, .air-q-card{
-    margin: 0 10px;
-    border: 1px solid black;
+    /* margin: 0 20px; */
+    /* border: 1px solid black; */
     border-radius: 20px;
     width: 50%;
     height: fit-content;
     padding: 20px 35px;
 }
 
+.weather-card{
+    background-image: url(./img/weather-card_bg.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
 .heading{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 150px;
+    /* justify-content: space-between; */
+    /* width: 162px; */
     /* margin-left: 15px; */
 }
 
@@ -162,22 +177,24 @@ main{
 } */
 
 .heading img{
-    width: 25px;
-    /* height: 30px; */
+    width: 35px;
     position: relative;
     left: 2px;
     top: 2px;
 }
 
+.heading .title{
+    margin-left: 15px;
+}
 
 .title .head{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     margin-bottom: 5px;
 }
 
 .title .sub-head{
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .value .temp{
@@ -191,20 +208,20 @@ main{
     justify-content: space-between;
     width: 130px;
     flex-wrap: wrap;
-    margin: 25px 0 15px 0;
+    margin: 20px 0 15px 0;
 }
 
 .value .second-temp{
     font-size: 10px;
     font-weight: 500;
-    background-color: yellow;
+    background-color: white;
     padding: 3px 8px 5px;
     border-radius: 8px;
     margin-top: 8px;
 }
 
 .value .title{
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 14px;
 }
 
@@ -223,15 +240,22 @@ main{
 
 .box-s{
     width: fit-content;
-    /* margin: 10px; */
-    background-color: black;
-    color: white;
     border-radius: 18px;
-    padding: 20px 30px;
+    padding: 14px 25px;
+}
+
+.pressure{
+    background-color: #192740;
+    color: white;
+}
+
+.visibility{
+    background-color: #c4fa31;
 }
 
 .details .title{
-    font-size: 12px;
+    font-weight: 300;
+    font-size: 14px;
     text-align: center;
 }
 
@@ -239,16 +263,21 @@ main{
     font-size: 20px;
     margin-top: 5px;
     text-align: center;
+    font-weight: 500;
 }
 
 .air-q-card{
     display: inline-block;
-    /* margin-top: 10px; */
+    background-image: url(./img/air-card_bg.jpg);
+    background-size:cover;
+    background-position: center;
+    color: white;
+    margin-left: 40px;
 }
 
-.air-q-card .heading{
-    width: 162px;
-}
+/* .air-q-card .heading , .air-q-card .value{
+    color: white;
+} */
 
 /* .air-q-card .heading img{
     width: 20px;
@@ -259,15 +288,17 @@ main{
     padding: 5px 10px;
     margin-top: 0;
     margin-right: 20px;
+    background-color: #c4fa31;
+    color: black;
 }
 
 .indicator{
     width: 100%;
     border-radius: 15px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 20px;
-    margin-top: 45px;
+    margin-top: 38px;
 }
 
 .indicator .level{
@@ -291,7 +322,7 @@ main{
 .section-2{
     padding: 30px 40px 61px 30px;
     width: 30%;
-    background-color: whitesmoke;
+    background-color: rgb(250, 245, 245);
 }
 
 .side-heading{
@@ -332,7 +363,7 @@ hr{
     margin-top: 25px;
     /* background-color: rgb(75, 73, 73); */
     border: 0.00001px solid rgb(182, 178, 178);
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 .detail{
@@ -382,8 +413,8 @@ hr{
     flex-direction: row;
     align-items: center;
     padding: 20px 20px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     border-radius: 18px;
 }
 
