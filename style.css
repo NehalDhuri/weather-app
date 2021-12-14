@@ -480,3 +480,7 @@ img{
 .cloudy{
     width: 55px;
 }
+
+.sun-traj img{
+    width: 100%;
+}
