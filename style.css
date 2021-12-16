@@ -45,9 +45,7 @@ body{
 
 .nav-logo img:hover{
     background-color: orange;
-    /* filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(134deg) brightness(104%) contrast(101%);} */
     box-shadow: 0 0 10px #ff9028;
-
 }
 
 .exit{
@@ -68,7 +66,7 @@ main{
 
 .section-1{
     width: 75%;
-    padding: 0 30px 40px 0;
+    padding: 0 50px 30px 30px;
 }
 
 .header{
@@ -319,8 +317,87 @@ main{
     background-color: var(--orange);
 }
 
+.lower-section{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.lower-section .left{
+    width: 70%;
+    margin-right: 30px;
+}
+
+.lower-section .left .header{
+    display: flex;
+    align-content: center;
+    align-content: center;
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+
+.lower-section .left .header .question{
+    font-size: 32px;
+    width: 320px;
+    margin-bottom: 0;
+}
+
+.temp-graph{
+    width: 650px;
+    height: 230px;
+}
+
+.temp-graph img{
+    width: 100%;
+    height: 100%;
+}
+
+.condition-logo{
+    display: flex;
+    align-items: center;
+}
+
+.condition-logo img{
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.condition-logo img:hover{
+    background-color: orange;
+    box-shadow: 0 0 10px #ff9028;
+}
+
+.lower-section .tomorrow-card{
+    width: 100%;
+    height: fit-content;
+    background-image: url(./img/rainy.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.lower-section .tomorrow-card h6{
+    font-weight: 400;
+}
+
+.lower-section .tomorrow-card .temp-value{
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.lower-section .tomorrow-card .temp-value .temp{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.lower-section .tomorrow-card .temp-value .condition{
+    font-weight: 400;
+}
+
 .section-2{
-    padding: 30px 40px 61px 30px;
+    padding: 30px 40px 10px 30px;
     width: 25%;
     background-color: rgb(250, 245, 245);
 }
