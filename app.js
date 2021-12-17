@@ -2,6 +2,7 @@ var cityName = document.querySelector('#search-bar');
 var searchIcon = document.querySelector('.search-icon');
 const apiKey = "2206bc7a96424fcf526f8259a873e585";
 var temp = document.querySelector(".temp-value");
+var temp2 = document.querySelector(".temp-value-2");
 var minTemp = document.querySelector(".min-temp");
 var description = document.querySelector(".value .title");
 var pressure = document.querySelector(".presValue");
@@ -32,6 +33,7 @@ function clickEventHandler() {
             var descValue = data['weather'][0]['description'];
 
             temp.innerHTML = parseInt(tempValue) ;
+            temp2.innerHTML = parseInt(tempValue) ;
             minTemp.innerHTML = parseInt(minTempValue) ;
             description.innerHTML = descValue;
             pressure.innerHTML = presValue;
