@@ -8,11 +8,10 @@ var pressure = document.querySelector(".presValue");
 var humidity = document.querySelector(".humValue");
 var visibility = document.querySelector(".visibValue");
 
-
-var serverURL = 'https://api.openweathermap.org/data/2.5/weather?q=sawantwadi&appid=2206bc7a96424fcf526f8259a873e585&units=metric';
+// var serverURL = 'https://api.openweathermap.org/data/2.5/weather?q='+name+'&appid=2206bc7a96424fcf526f8259a873e585&units=metric';
 
 function getURL(name) {
-    return serverURL;
+    return 'https://api.openweathermap.org/data/2.5/weather?q='+name+'&appid=2206bc7a96424fcf526f8259a873e585&units=metric';
 }
 
 function errorHandler(error){
